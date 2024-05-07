@@ -90,8 +90,9 @@
   background-color: #fea116;
 }
 .img-item {
-  height: 180px;
-  width: 252px;
+  height: 140px;
+  width: 30%;
+  object-fit: cover;
   border-radius: 5px;
 }
 .item-description {
@@ -384,5 +385,14 @@ h5,
   .col-sm-6 {
     flex: 0 0 auto;
     width: 50%;
+  }
+}
+
+@media (max-width: 576px) {
+  .img-item {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
   }
 }

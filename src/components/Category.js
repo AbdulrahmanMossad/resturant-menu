@@ -6,7 +6,7 @@ const Category = ({ filterData, allCategory }) => {
   };
   return (
     <Row className="my-2 mb-5 ">
-      <Col sm="12" className="d-flex justify-content-center">
+      <Col sm="12" className="d-flex justify-content-center flex-wrap gap-1">
         {/* <button onClick={()=>filterlaunch("الكل")}style={{border: "1px solid #b45b35"}}className='btn mx-2' >
                   الكل
               </button> */}

@@ -8,13 +8,13 @@ const ItemList = ({ itemsData }) => {
           return (
             <Col sm="12" className="mb-3" key={item.id}>
               <Card
-                className="d-flex flex-row"
+                className="d-flex flex-row flex-wrap flex-sm-nowrap justify-content-center"
                 style={{ backgroundColor: "#f8f8f8" }}
               >
                 <Card.Img
                   variant="top"
                   src={item.imgUrl}
-                  className="img-item"
+                  className="img-item "
                 />
                 <Card.Body>
                   <Card.Title className="d-flex justify-content-between">
